@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>con mucho love :3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <a href="#" class="k">KEILA</a>
+        <ul>
+            <li><a href="index.html" id="active">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="juego.html">GAME</a></li>
+            <li><a href="https://wa.link/uboev3">CONTACT</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="est.png" class="star" id="stars">
+        <img src="ssss.png" class="sun" id="sol">
+        <img src="nub.png" alt="" id="nub">
+        <h2 id="text">Espero Mejores</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="montanias.png" class="mont" id="monta">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Disfruta de la vida</h2>
+        <br>
+        <p>Podria decirte tantas cosas, pero si te fijas en la forma en que te miro, ya deberias saber todo. :3 
+            hice el juego de google chrome cuando te quedas sin internet, haz clic en el boton de "GAME" e intenta obtener una gran cantidad de puntos, si deseas me envias una captura de tu puntaje mas alto xd no es la gran cosa el juego pero espero te guste y distraiga un poco.
+            <br><br>
+            Espero mejores y me escribas pronto :3 dejo texto de relleno para que no se vea vacio xdxd oloribus. Sunt officiis eius ut ratione? Odio quaerat amet incidunt recusandae ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ex repellat rerum animi porro nesciunt sequi! Deleniti necessitatibus vitae consectetur, maxime quos non cupiditate et quidem. Non rem magnam officiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus est corrupti magnam nulla. At suscipit nemo numquam consequuntur doloribus saepe accusantium unde quidem quasi. Nesciunt saepe repellendus deserunt eligendi odit? <br> <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequuntur earum laudantium libero neque laboriosam consectetur rerum sit eligendi a ipsum praesentium soluta, illo quam? Sint aut expedita corporis dicta!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quidem eveniet aspernatur accusamus vitae molestiae laboriosam voluptatem quaerat accusantium quibusdam quod deserunt iste expedita, id, maxime iusto velit error commodi. <br></p>
+    </div>
+
+    <script>
+        alert('Ingresa desde una PC o se vera feo :,c')
+        let stars = document.getElementById('stars');
+        let sun = document.getElementById('sol');
+        let mont = document.getElementById('mont');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let nub = document.getElementById('nub');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            nub.style.bottom = value * 5 + 'px';
+            text.style.marginRight = value * 3 + 'px';
+            btn.style.marginTop = value * 1.25 + 'px';
+            stars.style.left = value * 0.25 + 'px';
+            sun.style.top = value * 0.75 + 'px';
+            mont.style.top = value * 0.5 + 'px';
+            
+            
+        })
+
+
+    </script>
+    
+</body>
+</html>
